@@ -1,0 +1,15 @@
+/Users/jnichols/Projects/PopularPizza/PopularPizza/bin/Debug/netstandard2.0/PopularPizza.deps.json
+/Users/jnichols/Projects/PopularPizza/PopularPizza/bin/Debug/netstandard2.0/PopularPizza.dll
+/Users/jnichols/Projects/PopularPizza/PopularPizza/bin/Debug/netstandard2.0/ref/PopularPizza.dll
+/Users/jnichols/Projects/PopularPizza/PopularPizza/bin/Debug/netstandard2.0/PopularPizza.pdb
+/Users/jnichols/Projects/PopularPizza/PopularPizza/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/jnichols/Projects/PopularPizza/PopularPizza/obj/Debug/netstandard2.0/Views/PizzaParser.xaml.g.cs
+/Users/jnichols/Projects/PopularPizza/PopularPizza/obj/Debug/netstandard2.0/PopularPizza.AssemblyInfoInputs.cache
+/Users/jnichols/Projects/PopularPizza/PopularPizza/obj/Debug/netstandard2.0/PopularPizza.AssemblyInfo.cs
+/Users/jnichols/Projects/PopularPizza/PopularPizza/obj/Debug/netstandard2.0/PopularPizza.csproj.CoreCompileInputs.cache
+/Users/jnichols/Projects/PopularPizza/PopularPizza/obj/Debug/netstandard2.0/PopularPizza.csproj.Fody.CopyLocal.cache
+/Users/jnichols/Projects/PopularPizza/PopularPizza/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/jnichols/Projects/PopularPizza/PopularPizza/obj/Debug/netstandard2.0/PopularPizza.dll
+/Users/jnichols/Projects/PopularPizza/PopularPizza/obj/Debug/netstandard2.0/ref/PopularPizza.dll
+/Users/jnichols/Projects/PopularPizza/PopularPizza/obj/Debug/netstandard2.0/PopularPizza.pdb
+/Users/jnichols/Projects/PopularPizza/PopularPizza/obj/Debug/netstandard2.0/PopularPizza.csprojAssemblyReference.cache
