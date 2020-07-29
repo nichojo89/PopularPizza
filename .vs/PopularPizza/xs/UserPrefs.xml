@@ -1,11 +1,18 @@
 ﻿<Properties StartupConfiguration="{728B3F6A-AA10-4057-AA66-B525D476FADC}|Default">
   <MonoDevelop.Ide.ItemProperties.PopularPizza.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.5C66B32F-173B-4101-A1DC-395A0BD0965D" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="PopularPizza/ViewModels/PizzaParserViewModel.cs">
+    <Files>
+      <File FileName="PopularPizza/ViewModels/PizzaParserViewModel.cs" Line="1" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Option id="ShowAllFiles" value="True" />
-          <Node name="PopularPizza" expanded="True" selected="True" />
+          <Node name="PopularPizza" expanded="True" selected="True">
+            <Node name="PopularPizza" expanded="True">
+              <Node name="ViewModels" expanded="True" />
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>

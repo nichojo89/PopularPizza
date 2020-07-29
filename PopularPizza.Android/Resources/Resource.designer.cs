@@ -53,6 +53,10 @@ namespace PopularPizza.Droid
 			global::Lottie.Forms.Resource.Animation.design_bottom_sheet_slide_out = global::PopularPizza.Droid.Resource.Animation.design_bottom_sheet_slide_out;
 			global::Lottie.Forms.Resource.Animation.design_snackbar_in = global::PopularPizza.Droid.Resource.Animation.design_snackbar_in;
 			global::Lottie.Forms.Resource.Animation.design_snackbar_out = global::PopularPizza.Droid.Resource.Animation.design_snackbar_out;
+			global::Lottie.Forms.Resource.Animation.EnterFromLeft = global::PopularPizza.Droid.Resource.Animation.EnterFromLeft;
+			global::Lottie.Forms.Resource.Animation.EnterFromRight = global::PopularPizza.Droid.Resource.Animation.EnterFromRight;
+			global::Lottie.Forms.Resource.Animation.ExitToLeft = global::PopularPizza.Droid.Resource.Animation.ExitToLeft;
+			global::Lottie.Forms.Resource.Animation.ExitToRight = global::PopularPizza.Droid.Resource.Animation.ExitToRight;
 			global::Lottie.Forms.Resource.Animator.design_appbar_state_list_animator = global::PopularPizza.Droid.Resource.Animator.design_appbar_state_list_animator;
 			global::Lottie.Forms.Resource.Animator.design_fab_hide_motion_spec = global::PopularPizza.Droid.Resource.Animator.design_fab_hide_motion_spec;
 			global::Lottie.Forms.Resource.Animator.design_fab_show_motion_spec = global::PopularPizza.Droid.Resource.Animator.design_fab_show_motion_spec;
@@ -1363,6 +1367,7 @@ namespace PopularPizza.Droid
 			global::Lottie.Forms.Resource.Layout.abc_search_view = global::PopularPizza.Droid.Resource.Layout.abc_search_view;
 			global::Lottie.Forms.Resource.Layout.abc_select_dialog_material = global::PopularPizza.Droid.Resource.Layout.abc_select_dialog_material;
 			global::Lottie.Forms.Resource.Layout.abc_tooltip = global::PopularPizza.Droid.Resource.Layout.abc_tooltip;
+			global::Lottie.Forms.Resource.Layout.BottomTabLayout = global::PopularPizza.Droid.Resource.Layout.BottomTabLayout;
 			global::Lottie.Forms.Resource.Layout.browser_actions_context_menu_page = global::PopularPizza.Droid.Resource.Layout.browser_actions_context_menu_page;
 			global::Lottie.Forms.Resource.Layout.browser_actions_context_menu_row = global::PopularPizza.Droid.Resource.Layout.browser_actions_context_menu_row;
 			global::Lottie.Forms.Resource.Layout.custom_dialog = global::PopularPizza.Droid.Resource.Layout.custom_dialog;
@@ -1380,6 +1385,9 @@ namespace PopularPizza.Droid
 			global::Lottie.Forms.Resource.Layout.design_navigation_menu = global::PopularPizza.Droid.Resource.Layout.design_navigation_menu;
 			global::Lottie.Forms.Resource.Layout.design_navigation_menu_item = global::PopularPizza.Droid.Resource.Layout.design_navigation_menu_item;
 			global::Lottie.Forms.Resource.Layout.design_text_input_password_icon = global::PopularPizza.Droid.Resource.Layout.design_text_input_password_icon;
+			global::Lottie.Forms.Resource.Layout.FallbackTabbarDoNotUse = global::PopularPizza.Droid.Resource.Layout.FallbackTabbarDoNotUse;
+			global::Lottie.Forms.Resource.Layout.FallbackToolbarDoNotUse = global::PopularPizza.Droid.Resource.Layout.FallbackToolbarDoNotUse;
+			global::Lottie.Forms.Resource.Layout.FlyoutContent = global::PopularPizza.Droid.Resource.Layout.FlyoutContent;
 			global::Lottie.Forms.Resource.Layout.mtrl_layout_snackbar = global::PopularPizza.Droid.Resource.Layout.mtrl_layout_snackbar;
 			global::Lottie.Forms.Resource.Layout.mtrl_layout_snackbar_include = global::PopularPizza.Droid.Resource.Layout.mtrl_layout_snackbar_include;
 			global::Lottie.Forms.Resource.Layout.notification_action = global::PopularPizza.Droid.Resource.Layout.notification_action;
@@ -1397,9 +1405,11 @@ namespace PopularPizza.Droid
 			global::Lottie.Forms.Resource.Layout.notification_template_media_custom = global::PopularPizza.Droid.Resource.Layout.notification_template_media_custom;
 			global::Lottie.Forms.Resource.Layout.notification_template_part_chronometer = global::PopularPizza.Droid.Resource.Layout.notification_template_part_chronometer;
 			global::Lottie.Forms.Resource.Layout.notification_template_part_time = global::PopularPizza.Droid.Resource.Layout.notification_template_part_time;
+			global::Lottie.Forms.Resource.Layout.RootLayout = global::PopularPizza.Droid.Resource.Layout.RootLayout;
 			global::Lottie.Forms.Resource.Layout.select_dialog_item_material = global::PopularPizza.Droid.Resource.Layout.select_dialog_item_material;
 			global::Lottie.Forms.Resource.Layout.select_dialog_multichoice_material = global::PopularPizza.Droid.Resource.Layout.select_dialog_multichoice_material;
 			global::Lottie.Forms.Resource.Layout.select_dialog_singlechoice_material = global::PopularPizza.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::Lottie.Forms.Resource.Layout.ShellContent = global::PopularPizza.Droid.Resource.Layout.ShellContent;
 			global::Lottie.Forms.Resource.Layout.support_simple_spinner_dropdown_item = global::PopularPizza.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
 			global::Lottie.Forms.Resource.Layout.Tabbar = global::PopularPizza.Droid.Resource.Layout.Tabbar;
 			global::Lottie.Forms.Resource.Layout.Toolbar = global::PopularPizza.Droid.Resource.Layout.Toolbar;
@@ -8177,6 +8187,7 @@ namespace PopularPizza.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.View_paddingEnd = global::PopularPizza.Droid.Resource.Styleable.View_paddingEnd;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.View_paddingStart = global::PopularPizza.Droid.Resource.Styleable.View_paddingStart;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.View_theme = global::PopularPizza.Droid.Resource.Styleable.View_theme;
+			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Xml.Empty = global::PopularPizza.Droid.Resource.Xml.Empty;
 			global::MvvmCross.Forms.Resource.Animation.abc_fade_in = global::PopularPizza.Droid.Resource.Animation.abc_fade_in;
 			global::MvvmCross.Forms.Resource.Animation.abc_fade_out = global::PopularPizza.Droid.Resource.Animation.abc_fade_out;
 			global::MvvmCross.Forms.Resource.Animation.abc_grow_fade_in_from_bottom = global::PopularPizza.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
@@ -8193,6 +8204,10 @@ namespace PopularPizza.Droid
 			global::MvvmCross.Forms.Resource.Animation.design_bottom_sheet_slide_out = global::PopularPizza.Droid.Resource.Animation.design_bottom_sheet_slide_out;
 			global::MvvmCross.Forms.Resource.Animation.design_snackbar_in = global::PopularPizza.Droid.Resource.Animation.design_snackbar_in;
 			global::MvvmCross.Forms.Resource.Animation.design_snackbar_out = global::PopularPizza.Droid.Resource.Animation.design_snackbar_out;
+			global::MvvmCross.Forms.Resource.Animation.EnterFromLeft = global::PopularPizza.Droid.Resource.Animation.EnterFromLeft;
+			global::MvvmCross.Forms.Resource.Animation.EnterFromRight = global::PopularPizza.Droid.Resource.Animation.EnterFromRight;
+			global::MvvmCross.Forms.Resource.Animation.ExitToLeft = global::PopularPizza.Droid.Resource.Animation.ExitToLeft;
+			global::MvvmCross.Forms.Resource.Animation.ExitToRight = global::PopularPizza.Droid.Resource.Animation.ExitToRight;
 			global::MvvmCross.Forms.Resource.Animator.design_appbar_state_list_animator = global::PopularPizza.Droid.Resource.Animator.design_appbar_state_list_animator;
 			global::MvvmCross.Forms.Resource.Animator.design_fab_hide_motion_spec = global::PopularPizza.Droid.Resource.Animator.design_fab_hide_motion_spec;
 			global::MvvmCross.Forms.Resource.Animator.design_fab_show_motion_spec = global::PopularPizza.Droid.Resource.Animator.design_fab_show_motion_spec;
@@ -9674,6 +9689,7 @@ namespace PopularPizza.Droid
 			global::MvvmCross.Forms.Resource.Layout.abc_search_view = global::PopularPizza.Droid.Resource.Layout.abc_search_view;
 			global::MvvmCross.Forms.Resource.Layout.abc_select_dialog_material = global::PopularPizza.Droid.Resource.Layout.abc_select_dialog_material;
 			global::MvvmCross.Forms.Resource.Layout.abc_tooltip = global::PopularPizza.Droid.Resource.Layout.abc_tooltip;
+			global::MvvmCross.Forms.Resource.Layout.BottomTabLayout = global::PopularPizza.Droid.Resource.Layout.BottomTabLayout;
 			global::MvvmCross.Forms.Resource.Layout.browser_actions_context_menu_page = global::PopularPizza.Droid.Resource.Layout.browser_actions_context_menu_page;
 			global::MvvmCross.Forms.Resource.Layout.browser_actions_context_menu_row = global::PopularPizza.Droid.Resource.Layout.browser_actions_context_menu_row;
 			global::MvvmCross.Forms.Resource.Layout.design_bottom_navigation_item = global::PopularPizza.Droid.Resource.Layout.design_bottom_navigation_item;
@@ -9690,6 +9706,7 @@ namespace PopularPizza.Droid
 			global::MvvmCross.Forms.Resource.Layout.design_navigation_menu = global::PopularPizza.Droid.Resource.Layout.design_navigation_menu;
 			global::MvvmCross.Forms.Resource.Layout.design_navigation_menu_item = global::PopularPizza.Droid.Resource.Layout.design_navigation_menu_item;
 			global::MvvmCross.Forms.Resource.Layout.design_text_input_password_icon = global::PopularPizza.Droid.Resource.Layout.design_text_input_password_icon;
+			global::MvvmCross.Forms.Resource.Layout.FlyoutContent = global::PopularPizza.Droid.Resource.Layout.FlyoutContent;
 			global::MvvmCross.Forms.Resource.Layout.mr_cast_dialog = global::PopularPizza.Droid.Resource.Layout.mr_cast_dialog;
 			global::MvvmCross.Forms.Resource.Layout.mr_cast_group_item = global::PopularPizza.Droid.Resource.Layout.mr_cast_group_item;
 			global::MvvmCross.Forms.Resource.Layout.mr_cast_group_volume_item = global::PopularPizza.Droid.Resource.Layout.mr_cast_group_volume_item;
@@ -9720,9 +9737,11 @@ namespace PopularPizza.Droid
 			global::MvvmCross.Forms.Resource.Layout.notification_template_media_custom = global::PopularPizza.Droid.Resource.Layout.notification_template_media_custom;
 			global::MvvmCross.Forms.Resource.Layout.notification_template_part_chronometer = global::PopularPizza.Droid.Resource.Layout.notification_template_part_chronometer;
 			global::MvvmCross.Forms.Resource.Layout.notification_template_part_time = global::PopularPizza.Droid.Resource.Layout.notification_template_part_time;
+			global::MvvmCross.Forms.Resource.Layout.RootLayout = global::PopularPizza.Droid.Resource.Layout.RootLayout;
 			global::MvvmCross.Forms.Resource.Layout.select_dialog_item_material = global::PopularPizza.Droid.Resource.Layout.select_dialog_item_material;
 			global::MvvmCross.Forms.Resource.Layout.select_dialog_multichoice_material = global::PopularPizza.Droid.Resource.Layout.select_dialog_multichoice_material;
 			global::MvvmCross.Forms.Resource.Layout.select_dialog_singlechoice_material = global::PopularPizza.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::MvvmCross.Forms.Resource.Layout.ShellContent = global::PopularPizza.Droid.Resource.Layout.ShellContent;
 			global::MvvmCross.Forms.Resource.Layout.support_simple_spinner_dropdown_item = global::PopularPizza.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
 			global::MvvmCross.Forms.Resource.String.abc_action_bar_home_description = global::PopularPizza.Droid.Resource.String.abc_action_bar_home_description;
 			global::MvvmCross.Forms.Resource.String.abc_action_bar_up_description = global::PopularPizza.Droid.Resource.String.abc_action_bar_up_description;
@@ -11067,6 +11086,7 @@ namespace PopularPizza.Droid
 			global::MvvmCross.Forms.Resource.Styleable.View_paddingEnd = global::PopularPizza.Droid.Resource.Styleable.View_paddingEnd;
 			global::MvvmCross.Forms.Resource.Styleable.View_paddingStart = global::PopularPizza.Droid.Resource.Styleable.View_paddingStart;
 			global::MvvmCross.Forms.Resource.Styleable.View_theme = global::PopularPizza.Droid.Resource.Styleable.View_theme;
+			global::MvvmCross.Forms.Resource.Xml.Empty = global::PopularPizza.Droid.Resource.Xml.Empty;
 			global::Xamarin.Essentials.Resource.Attribute.alpha = global::PopularPizza.Droid.Resource.Attribute.alpha;
 			global::Xamarin.Essentials.Resource.Attribute.coordinatorLayoutStyle = global::PopularPizza.Droid.Resource.Attribute.coordinatorLayoutStyle;
 			global::Xamarin.Essentials.Resource.Attribute.font = global::PopularPizza.Droid.Resource.Attribute.font;
@@ -11317,6 +11337,10 @@ namespace PopularPizza.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.design_bottom_sheet_slide_out = global::PopularPizza.Droid.Resource.Animation.design_bottom_sheet_slide_out;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.design_snackbar_in = global::PopularPizza.Droid.Resource.Animation.design_snackbar_in;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.design_snackbar_out = global::PopularPizza.Droid.Resource.Animation.design_snackbar_out;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.EnterFromLeft = global::PopularPizza.Droid.Resource.Animation.EnterFromLeft;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.EnterFromRight = global::PopularPizza.Droid.Resource.Animation.EnterFromRight;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.ExitToLeft = global::PopularPizza.Droid.Resource.Animation.ExitToLeft;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.ExitToRight = global::PopularPizza.Droid.Resource.Animation.ExitToRight;
 			global::Xamarin.Forms.Platform.Android.Resource.Animator.design_appbar_state_list_animator = global::PopularPizza.Droid.Resource.Animator.design_appbar_state_list_animator;
 			global::Xamarin.Forms.Platform.Android.Resource.Animator.design_fab_hide_motion_spec = global::PopularPizza.Droid.Resource.Animator.design_fab_hide_motion_spec;
 			global::Xamarin.Forms.Platform.Android.Resource.Animator.design_fab_show_motion_spec = global::PopularPizza.Droid.Resource.Animator.design_fab_show_motion_spec;
@@ -12595,6 +12619,7 @@ namespace PopularPizza.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.abc_search_view = global::PopularPizza.Droid.Resource.Layout.abc_search_view;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.abc_select_dialog_material = global::PopularPizza.Droid.Resource.Layout.abc_select_dialog_material;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.abc_tooltip = global::PopularPizza.Droid.Resource.Layout.abc_tooltip;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.BottomTabLayout = global::PopularPizza.Droid.Resource.Layout.BottomTabLayout;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.custom_dialog = global::PopularPizza.Droid.Resource.Layout.custom_dialog;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_bottom_navigation_item = global::PopularPizza.Droid.Resource.Layout.design_bottom_navigation_item;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_bottom_sheet_dialog = global::PopularPizza.Droid.Resource.Layout.design_bottom_sheet_dialog;
@@ -12610,6 +12635,9 @@ namespace PopularPizza.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_navigation_menu = global::PopularPizza.Droid.Resource.Layout.design_navigation_menu;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_navigation_menu_item = global::PopularPizza.Droid.Resource.Layout.design_navigation_menu_item;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_text_input_password_icon = global::PopularPizza.Droid.Resource.Layout.design_text_input_password_icon;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.FallbackTabbarDoNotUse = global::PopularPizza.Droid.Resource.Layout.FallbackTabbarDoNotUse;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.FallbackToolbarDoNotUse = global::PopularPizza.Droid.Resource.Layout.FallbackToolbarDoNotUse;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.FlyoutContent = global::PopularPizza.Droid.Resource.Layout.FlyoutContent;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.mtrl_layout_snackbar = global::PopularPizza.Droid.Resource.Layout.mtrl_layout_snackbar;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.mtrl_layout_snackbar_include = global::PopularPizza.Droid.Resource.Layout.mtrl_layout_snackbar_include;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.notification_action = global::PopularPizza.Droid.Resource.Layout.notification_action;
@@ -12627,9 +12655,11 @@ namespace PopularPizza.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.notification_template_media_custom = global::PopularPizza.Droid.Resource.Layout.notification_template_media_custom;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.notification_template_part_chronometer = global::PopularPizza.Droid.Resource.Layout.notification_template_part_chronometer;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.notification_template_part_time = global::PopularPizza.Droid.Resource.Layout.notification_template_part_time;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.RootLayout = global::PopularPizza.Droid.Resource.Layout.RootLayout;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.select_dialog_item_material = global::PopularPizza.Droid.Resource.Layout.select_dialog_item_material;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.select_dialog_multichoice_material = global::PopularPizza.Droid.Resource.Layout.select_dialog_multichoice_material;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.select_dialog_singlechoice_material = global::PopularPizza.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.ShellContent = global::PopularPizza.Droid.Resource.Layout.ShellContent;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.support_simple_spinner_dropdown_item = global::PopularPizza.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.Tabbar = global::PopularPizza.Droid.Resource.Layout.Tabbar;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.Toolbar = global::PopularPizza.Droid.Resource.Layout.Toolbar;
@@ -13985,6 +14015,10 @@ namespace PopularPizza.Droid
 			global::Xamarin.Forms.Platform.Resource.Animation.design_bottom_sheet_slide_out = global::PopularPizza.Droid.Resource.Animation.design_bottom_sheet_slide_out;
 			global::Xamarin.Forms.Platform.Resource.Animation.design_snackbar_in = global::PopularPizza.Droid.Resource.Animation.design_snackbar_in;
 			global::Xamarin.Forms.Platform.Resource.Animation.design_snackbar_out = global::PopularPizza.Droid.Resource.Animation.design_snackbar_out;
+			global::Xamarin.Forms.Platform.Resource.Animation.EnterFromLeft = global::PopularPizza.Droid.Resource.Animation.EnterFromLeft;
+			global::Xamarin.Forms.Platform.Resource.Animation.EnterFromRight = global::PopularPizza.Droid.Resource.Animation.EnterFromRight;
+			global::Xamarin.Forms.Platform.Resource.Animation.ExitToLeft = global::PopularPizza.Droid.Resource.Animation.ExitToLeft;
+			global::Xamarin.Forms.Platform.Resource.Animation.ExitToRight = global::PopularPizza.Droid.Resource.Animation.ExitToRight;
 			global::Xamarin.Forms.Platform.Resource.Animator.design_appbar_state_list_animator = global::PopularPizza.Droid.Resource.Animator.design_appbar_state_list_animator;
 			global::Xamarin.Forms.Platform.Resource.Animator.design_fab_hide_motion_spec = global::PopularPizza.Droid.Resource.Animator.design_fab_hide_motion_spec;
 			global::Xamarin.Forms.Platform.Resource.Animator.design_fab_show_motion_spec = global::PopularPizza.Droid.Resource.Animator.design_fab_show_motion_spec;
@@ -15263,6 +15297,7 @@ namespace PopularPizza.Droid
 			global::Xamarin.Forms.Platform.Resource.Layout.abc_search_view = global::PopularPizza.Droid.Resource.Layout.abc_search_view;
 			global::Xamarin.Forms.Platform.Resource.Layout.abc_select_dialog_material = global::PopularPizza.Droid.Resource.Layout.abc_select_dialog_material;
 			global::Xamarin.Forms.Platform.Resource.Layout.abc_tooltip = global::PopularPizza.Droid.Resource.Layout.abc_tooltip;
+			global::Xamarin.Forms.Platform.Resource.Layout.BottomTabLayout = global::PopularPizza.Droid.Resource.Layout.BottomTabLayout;
 			global::Xamarin.Forms.Platform.Resource.Layout.custom_dialog = global::PopularPizza.Droid.Resource.Layout.custom_dialog;
 			global::Xamarin.Forms.Platform.Resource.Layout.design_bottom_navigation_item = global::PopularPizza.Droid.Resource.Layout.design_bottom_navigation_item;
 			global::Xamarin.Forms.Platform.Resource.Layout.design_bottom_sheet_dialog = global::PopularPizza.Droid.Resource.Layout.design_bottom_sheet_dialog;
@@ -15278,6 +15313,9 @@ namespace PopularPizza.Droid
 			global::Xamarin.Forms.Platform.Resource.Layout.design_navigation_menu = global::PopularPizza.Droid.Resource.Layout.design_navigation_menu;
 			global::Xamarin.Forms.Platform.Resource.Layout.design_navigation_menu_item = global::PopularPizza.Droid.Resource.Layout.design_navigation_menu_item;
 			global::Xamarin.Forms.Platform.Resource.Layout.design_text_input_password_icon = global::PopularPizza.Droid.Resource.Layout.design_text_input_password_icon;
+			global::Xamarin.Forms.Platform.Resource.Layout.FallbackTabbarDoNotUse = global::PopularPizza.Droid.Resource.Layout.FallbackTabbarDoNotUse;
+			global::Xamarin.Forms.Platform.Resource.Layout.FallbackToolbarDoNotUse = global::PopularPizza.Droid.Resource.Layout.FallbackToolbarDoNotUse;
+			global::Xamarin.Forms.Platform.Resource.Layout.FlyoutContent = global::PopularPizza.Droid.Resource.Layout.FlyoutContent;
 			global::Xamarin.Forms.Platform.Resource.Layout.mtrl_layout_snackbar = global::PopularPizza.Droid.Resource.Layout.mtrl_layout_snackbar;
 			global::Xamarin.Forms.Platform.Resource.Layout.mtrl_layout_snackbar_include = global::PopularPizza.Droid.Resource.Layout.mtrl_layout_snackbar_include;
 			global::Xamarin.Forms.Platform.Resource.Layout.notification_action = global::PopularPizza.Droid.Resource.Layout.notification_action;
@@ -15295,9 +15333,11 @@ namespace PopularPizza.Droid
 			global::Xamarin.Forms.Platform.Resource.Layout.notification_template_media_custom = global::PopularPizza.Droid.Resource.Layout.notification_template_media_custom;
 			global::Xamarin.Forms.Platform.Resource.Layout.notification_template_part_chronometer = global::PopularPizza.Droid.Resource.Layout.notification_template_part_chronometer;
 			global::Xamarin.Forms.Platform.Resource.Layout.notification_template_part_time = global::PopularPizza.Droid.Resource.Layout.notification_template_part_time;
+			global::Xamarin.Forms.Platform.Resource.Layout.RootLayout = global::PopularPizza.Droid.Resource.Layout.RootLayout;
 			global::Xamarin.Forms.Platform.Resource.Layout.select_dialog_item_material = global::PopularPizza.Droid.Resource.Layout.select_dialog_item_material;
 			global::Xamarin.Forms.Platform.Resource.Layout.select_dialog_multichoice_material = global::PopularPizza.Droid.Resource.Layout.select_dialog_multichoice_material;
 			global::Xamarin.Forms.Platform.Resource.Layout.select_dialog_singlechoice_material = global::PopularPizza.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::Xamarin.Forms.Platform.Resource.Layout.ShellContent = global::PopularPizza.Droid.Resource.Layout.ShellContent;
 			global::Xamarin.Forms.Platform.Resource.Layout.support_simple_spinner_dropdown_item = global::PopularPizza.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
 			global::Xamarin.Forms.Platform.Resource.Layout.Tabbar = global::PopularPizza.Droid.Resource.Layout.Tabbar;
 			global::Xamarin.Forms.Platform.Resource.Layout.Toolbar = global::PopularPizza.Droid.Resource.Layout.Toolbar;
@@ -16715,16 +16755,16 @@ namespace PopularPizza.Droid
 			public const int design_snackbar_out = 2130771995;
 			
 			// aapt resource value: 0x7F01001C
-			public const int enterfromleft = 2130771996;
+			public const int EnterFromLeft = 2130771996;
 			
 			// aapt resource value: 0x7F01001D
-			public const int enterfromright = 2130771997;
+			public const int EnterFromRight = 2130771997;
 			
 			// aapt resource value: 0x7F01001E
-			public const int exittoleft = 2130771998;
+			public const int ExitToLeft = 2130771998;
 			
 			// aapt resource value: 0x7F01001F
-			public const int exittoright = 2130771999;
+			public const int ExitToRight = 2130771999;
 			
 			static Animation()
 			{
@@ -21801,7 +21841,7 @@ namespace PopularPizza.Droid
 			public const int abc_tooltip = 2131427355;
 			
 			// aapt resource value: 0x7F0B001C
-			public const int bottomtablayout = 2131427356;
+			public const int BottomTabLayout = 2131427356;
 			
 			// aapt resource value: 0x7F0B001D
 			public const int browser_actions_context_menu_page = 2131427357;
@@ -21855,13 +21895,13 @@ namespace PopularPizza.Droid
 			public const int design_text_input_password_icon = 2131427373;
 			
 			// aapt resource value: 0x7F0B002E
-			public const int fallbacktabbardonotuse = 2131427374;
+			public const int FallbackTabbarDoNotUse = 2131427374;
 			
 			// aapt resource value: 0x7F0B002F
-			public const int fallbacktoolbardonotuse = 2131427375;
+			public const int FallbackToolbarDoNotUse = 2131427375;
 			
 			// aapt resource value: 0x7F0B0030
-			public const int flyoutcontent = 2131427376;
+			public const int FlyoutContent = 2131427376;
 			
 			// aapt resource value: 0x7F0B0031
 			public const int mr_cast_dialog = 2131427377;
@@ -21960,7 +22000,7 @@ namespace PopularPizza.Droid
 			public const int notification_template_part_time = 2131427408;
 			
 			// aapt resource value: 0x7F0B0051
-			public const int rootlayout = 2131427409;
+			public const int RootLayout = 2131427409;
 			
 			// aapt resource value: 0x7F0B0052
 			public const int select_dialog_item_material = 2131427410;
@@ -21972,7 +22012,7 @@ namespace PopularPizza.Droid
 			public const int select_dialog_singlechoice_material = 2131427412;
 			
 			// aapt resource value: 0x7F0B0055
-			public const int shellcontent = 2131427413;
+			public const int ShellContent = 2131427413;
 			
 			// aapt resource value: 0x7F0B0056
 			public const int support_simple_spinner_dropdown_item = 2131427414;
@@ -26985,7 +27025,7 @@ namespace PopularPizza.Droid
 		{
 			
 			// aapt resource value: 0x7F100000
-			public const int empty = 2131755008;
+			public const int Empty = 2131755008;
 			
 			// aapt resource value: 0x7F100001
 			public const int xamarin_essentials_fileprovider_file_paths = 2131755009;

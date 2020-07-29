@@ -1,5 +1,5 @@
-"--cache=/Users/jnichols/Projects/PopularPizza/PopularPizza.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-13.6/mtouch-cache"
-"--sim=/Users/jnichols/Projects/PopularPizza/PopularPizza.iOS/bin/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-13.6/PopularPizza.iOS.app"
+"--cache=/Users/jnichols/Documents/Projects/PopularPizza/PopularPizza.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-13.6/mtouch-cache"
+"--sim=/Users/jnichols/Documents/Projects/PopularPizza/PopularPizza.iOS/bin/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-13.6/PopularPizza.iOS.app"
 --executable=PopularPizza.iOS
 --debug
 --sgen-conc
@@ -10,11 +10,11 @@
 --aot-options=-O=-float32
 --http-message-handler=NSUrlSessionHandler
 --abi=x86_64
-"--symbollist=/Users/jnichols/Projects/PopularPizza/PopularPizza.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-13.6/mtouch-symbols.list"
+"--symbollist=/Users/jnichols/Documents/Projects/PopularPizza/PopularPizza.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11 pro max-13.6/mtouch-symbols.list"
 --dsym=no
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/OpenTK-1.0.dll
--r=/Users/jnichols/Projects/PopularPizza/PopularPizza/bin/Debug/netstandard2.1/PopularPizza.dll
+-r=/Users/jnichols/Documents/Projects/PopularPizza/PopularPizza/bin/Debug/netstandard2.1/PopularPizza.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.IO.Compression.dll
@@ -216,10 +216,10 @@
 -r=/Users/jnichols/.nuget/packages/xamarin.forms/4.7.0.1179/lib/Xamarin.iOS10/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll
 -r=/Users/jnichols/.nuget/packages/xamarin.forms/4.7.0.1179/lib/Xamarin.iOS10/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
 -r=/Users/jnichols/.nuget/packages/xamarin.forms.pancakeview/2.0.1.698/lib/xamarinios10/Xamarin.Forms.PancakeView.dll
--r=/Users/jnichols/Projects/PopularPizza/PopularPizza/bin/Debug/netstandard2.1/PopularPizza.dll
+-r=/Users/jnichols/Documents/Projects/PopularPizza/PopularPizza/bin/Debug/netstandard2.1/PopularPizza.dll
 -r=/Users/jnichols/.nuget/packages/xamarin.forms/4.7.0.1179/buildTransitive/XCODE11/Xamarin.Forms.Platform.iOS.dll
 --target-framework=Xamarin.iOS,v1.0
---root-assembly=/Users/jnichols/Projects/PopularPizza/PopularPizza.iOS/bin/iPhoneSimulator/Debug/PopularPizza.iOS.exe
+--root-assembly=/Users/jnichols/Documents/Projects/PopularPizza/PopularPizza.iOS/bin/iPhoneSimulator/Debug/PopularPizza.iOS.exe
 -v
 -v
 -v

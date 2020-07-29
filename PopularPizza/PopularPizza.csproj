@@ -30,10 +30,4 @@
     <Folder Include="WebServices\" />
     <Folder Include="Helpers\" />
   </ItemGroup>
-  <ItemGroup>
-    <None Remove="README.MD" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="README.MD" />
-  </ItemGroup>
 </Project>
